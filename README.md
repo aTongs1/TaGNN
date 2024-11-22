@@ -1,8 +1,7 @@
-# TaGNN
-Tendency-aware Graph Neural Network for Water Quality Prediction with Coupled Noise
+# TaGNN: Tendency-aware Graph Neural Network for Water Quality Prediction with Coupled Noise
 ## 主要贡献
-   - 利用历史水质数据趋势特征,挖掘原始水质数据指标的局部相互关系,构建多种潜在的水系拓扑结构,分离结构噪声．
-   - 利用构建的邻接矩阵与原始数据挖掘时空特征,分离数值噪声．
-   - 根据潜在结构构建前后图网络节点表征一致性聚合水质预测结果．
+   - By leveraging historical water quality trend features, the proposed model uncovers local interdependencies among raw water quality indicators to construct multiple potential hydrological topological structures, thereby effectively disentangling structural noise.
+   - Utilizing the constructed adjacency matrices alongside original data, the model extracts spatio-temporal features to separate numerical noise.
+   - Ultimately, coherent node representations across pre- and post-structure construction phases are aggregated based on the inferred latent structure to deliver water quality predictions.
 ![Alt text](main_model.jpg)
 
